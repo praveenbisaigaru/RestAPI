@@ -18,6 +18,9 @@ public class Testing {
 		json.getData("Tc_01_GetWheater_Details", "BaseURI");
 		json.getData("Tc_01_GetWheater_Details", "Expected_Result1");*/
 		
+		String str="/shop/orders/7992/items/";
+		
+		System.out.println(str.replaceAll("[^0-9]", ""));
 		
 		
 		
